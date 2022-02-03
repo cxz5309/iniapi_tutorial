@@ -1,0 +1,29 @@
+{
+  "name": "node-inicis",
+  "version": "0.0.2",
+  "description": "Node.js 이니시스 라이브러리",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GwonHyeok/node-inicis.git"
+  },
+  "keywords": [
+    "inicis",
+    "kg",
+    "kginicis"
+  ],
+  "author": "GwonHyeok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GwonHyeok/node-inicis/issues"
+  },
+  "homepage": "https://github.com/GwonHyeok/node-inicis#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
