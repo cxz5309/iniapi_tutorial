@@ -131,7 +131,8 @@ var _pay = function(shopData, authResult, shopLogicCallback, successCallback){
 };
 
 var pay = function(shopData, authData, shopLogicCallback, failCallback, successCallback){
-    inipayUtil.validateData(shopData, {mid:"string", totalPrice:"number", goodName:"string"});
+  console.log(inipayUtil.validateData(shopData, { mid: "string", totalPrice: "number", goodName: "string" }));
+  
     try{
         if(typeof successCallback !== "function")
             successCallback = function(){ return true; };

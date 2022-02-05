@@ -37,6 +37,7 @@ function sendPostRequest (url, sendData, handleResponse, handleError) {
     if (!handleResponse) throw new Error('sendPostHttpsRequest() Failed : No callback');
     if (!sendData) sendData = {};
 
+  console.log('url', url);
     var urlObj = urlMod.parse(url);
     var postQueryString = qsMod.stringify(sendData);
     var reqOptions = {

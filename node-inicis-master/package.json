@@ -23,6 +23,7 @@
   "homepage": "https://github.com/GwonHyeok/node-inicis#readme",
   "dependencies": {
     "co": "^4.6.0",
+    "express": "^4.17.2",
     "request": "^2.79.0",
     "request-promise": "^4.1.1"
   }
